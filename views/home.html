@@ -17,13 +17,16 @@
             <fieldset>
                 <legend>Personal Information</legend>
                 <label for="name">Name:</label>
+                <span class="err" id="err-name">Name is required</span>
                 <input type="text" id="name" name="name">
                 <label for="email">Email:</label>
+                <span class="err" id="err-email">Email is required</span>
                 <input type="text" id="email" name="email">
             </fieldset>
             <fieldset>
                 <legend>Order Details</legend>
                 <label for="flavor">Choose your flavor:</label>
+                <span class="err" id="err-flavor">You must choose a flavor</span>
                 <select>
                     <option value="none">-- Select a flavor --</option>
                     <option value="vanilla">Vanilla</option>
@@ -32,6 +35,7 @@
                     <option value="strawberry">strawberry</option>
                 </select>
                 <label for="cones">Choose your cone:</label>
+                <span class="err" id="err-cone">You must choose a cone</span>
                 <label for="waffle">
                     <input type="radio" id="waffle" name="cone">Waffle Cone
                 </label>
