@@ -51,7 +51,7 @@ select {
     height: 2rem;
 }
 
-#submit {
+#order-button {
     color: white;
     background-color: green;
     text-decoration: none;
